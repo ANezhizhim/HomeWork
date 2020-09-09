@@ -12,6 +12,7 @@ public class Task2 {
         a2 = (intA / 10) % 10;
         a3 = intA % 10;
 
+
         Res = a1 + a2 + a3;
         System.out.println("a1 " + a1);
         System.out.println("a2 " + a2);

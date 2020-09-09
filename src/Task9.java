@@ -17,5 +17,6 @@ public class Task9 {
         for (int i=0; i<intArr.length;i++){
             System.out.println("Index["+i+"]"+intArr[i]);
         }
+
     }
 }

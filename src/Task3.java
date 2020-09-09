@@ -13,5 +13,6 @@ public class Task3 {
         System.out.println("Ответ: "+ intA );
 
 
+
     }
 }

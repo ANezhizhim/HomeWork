@@ -23,5 +23,6 @@ public class Task6 {
           else System.out.println("Нулевое число");
         }
 
+
     }
 

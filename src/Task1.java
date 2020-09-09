@@ -8,5 +8,6 @@ public class Task1 {
         intA = ExprScan.nextInt();
         System.out.println("Ответ: "+ intA % 10);
 
+
     }
 }

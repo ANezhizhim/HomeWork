@@ -8,6 +8,7 @@ public class Task5 {
         arrA = new int[3];
         Scanner ExprScan = new Scanner(System.in);
 
+
         System.out.println("Task5. Введите 1-е целое число: ");
         arrA[0] = ExprScan.nextInt();
         System.out.println("Task5. Введите 2-е целое число: ");

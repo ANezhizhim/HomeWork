@@ -17,5 +17,6 @@ public class Task10 {
             System.out.println("Index["+i+"]"+intArr[i]);
         }
 
+
     }
 }

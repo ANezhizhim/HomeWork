@@ -16,6 +16,7 @@ public class Task7 {
             case 491: fltCost =2.69f*10.0f ; strTown="Краснодар"; break;
             case 800: fltCost =5.0f*10.0f ; strTown="Киров"; break;
 
+
         }
         System.out.println(strTown+". Стоимость разговора:" + fltCost);
     }

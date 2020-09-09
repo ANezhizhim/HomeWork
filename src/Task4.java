@@ -14,6 +14,7 @@ public class Task4 {
         } else intA=10;
 
 
+
         System.out.println("Ответ: "+ intA );
 
 
