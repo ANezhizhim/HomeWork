@@ -4,8 +4,8 @@ public class Task1 {
     public static void main(String[] args) {
         int a;
         System.out.println("Введите целое число: ");
-        Scanner ExprScan = new Scanner(System.in);
-        a = ExprScan.nextInt();
+        Scanner exprScan = new Scanner(System.in);
+        a = exprScan.nextInt();
         System.out.println("Ответ: "+ a % 10);
 
 
