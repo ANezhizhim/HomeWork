@@ -17,14 +17,14 @@ public class Task6 {
                 description = "Положительное ";
             }
             //Определяем четность числа
-            if (int_a % 2 < 0) {
+            if (Math.abs(int_a % 2) > 0) {
                 description += "нечетное число";
             } else {
                 description += "четное число";
             }
 
         }
-        System.out.println(description);
+        System.out.println(description );
 
 
 
