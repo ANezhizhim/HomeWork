@@ -14,7 +14,9 @@ public class Task5 {
 
         min_a = arr_a[0];
         for (int i = 1; i < 3; i++)
-            if (min_a > arr_a[i]) min_a = arr_a[i];
+            if (min_a > arr_a[i]) {
+                min_a = arr_a[i];
+            }
 
         System.out.println("Ответ: " + min_a);
 
