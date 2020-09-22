@@ -8,10 +8,10 @@ public class Task3 {
         System.out.println("Task3. Введите целое число: ");
         Scanner exprScan = new Scanner(System.in);
         a = exprScan.nextInt();
-        if (a > 0){
+        if (a > 0) {
             a++;
         }
 
-        System.out.println("Ответ: "+ a );
+        System.out.println("Ответ: " + a);
     }
 }

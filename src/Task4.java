@@ -9,13 +9,12 @@ public class Task4 {
         a = exprScan.nextInt();
         if (a > 0) {
             a++;
-        } else if (a<0) {
+        } else if (a < 0) {
             a -= 2;
-        } else a=10;
+        } else a = 10;
 
 
-
-        System.out.println("Ответ: "+ a );
+        System.out.println("Ответ: " + a);
 
 
     }
