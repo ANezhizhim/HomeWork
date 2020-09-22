@@ -4,15 +4,14 @@ public class Task3 {
 
     public static void main(String[] args) {
 
-        int intA;
+        int a;
         System.out.println("Task3. Введите целое число: ");
-        Scanner ExprScan = new Scanner(System.in);
-        intA = ExprScan.nextInt();
-        if (intA > 0) intA++;
+        Scanner exprScan = new Scanner(System.in);
+        a = exprScan.nextInt();
+        if (a > 0){
+            a++;
+        }
 
-        System.out.println("Ответ: "+ intA );
-
-
-
+        System.out.println("Ответ: "+ a );
     }
 }
