@@ -3,19 +3,19 @@ import java.util.Scanner;
 public class Task4 {
 
     public static void main(String[] args) {
-        int intA;
+        int a;
         System.out.println("Task4. Введите целое число: ");
-        Scanner ExprScan = new Scanner(System.in);
-        intA = ExprScan.nextInt();
-        if (intA > 0) {
-            intA++;
-        } else if (intA<0) {
-            intA -= 2;
-        } else intA=10;
+        Scanner exprScan = new Scanner(System.in);
+        a = exprScan.nextInt();
+        if (a > 0) {
+            a++;
+        } else if (a<0) {
+            a -= 2;
+        } else a=10;
 
 
 
-        System.out.println("Ответ: "+ intA );
+        System.out.println("Ответ: "+ a );
 
 
     }
