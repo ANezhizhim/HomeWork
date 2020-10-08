@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Task1 {
     public static void main(String[] args) {
         int input;
-        System.out.println("Введите целое  число: ");
+        System.out.println("Введите целое число: ");
         Scanner exprScan = new Scanner(System.in);
         input = exprScan.nextInt();
         System.out.println("Ответ: " + input % 10);
