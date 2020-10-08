@@ -1,3 +1,5 @@
+package Lesson2.src;
+
 public class Task9 {
 
     public static void main(String[] args) {

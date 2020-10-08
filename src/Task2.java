@@ -3,14 +3,14 @@ import java.util.Scanner;
 public class Task2 {
 
     public static void main(String[] args) {
-        int a;
+        int input;
         System.out.println("Введите целое число и в ответ получите сумму цифр: ");
         Scanner exprScan = new Scanner(System.in);
-        a = exprScan.nextInt();
+        input = exprScan.nextInt();
         int res = 0;
-        while (a > 0) {
-            res += a % 10;
-            a = a / 10;
+        while (input > 0) {
+            res += input % 10;
+            input = input / 10;
         }
         System.out.println("Ответ: " + res);
     }
